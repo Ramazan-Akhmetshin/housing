@@ -1,0 +1,464 @@
+.swiper-container
+  width: 100%
+  height: 100vh
+.visible-menu
+  display: none
+.pick-up
+  display: flex
+  max-width: 340px
+  height: 50px
+  background: rgba(255, 255, 255, 0.3)
+  border-radius: 7px
+  padding: 19px 24px 22px 20px
+  display: none
+.call
+  display: none
+.mini-logo
+  display: none
+  &__text
+    font-family: Core Sans C
+    font-style: normal
+    font-weight: 500
+    font-size: 14px
+    line-height: 14px
+    color: #FFFFFF
+  &__svg
+    width: 16px
+    height: 16px
+.primary
+  overflow: hidden
+  &__video
+    position: relative
+    padding-bottom: 56.25%
+    height: 100%
+    overflow: hidden
+    &__media
+      position: absolute
+      top: 0
+      left: 0
+      height: 100%
+      z-index: 1
+  &__content
+    z-index: 50
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    padding-top: 42px
+    padding-bottom: 42px
+.header
+  display: flex
+  justify-content: space-between
+  margin-bottom: 117px
+  &__left
+    display: flex
+    align-items: center
+    cursor: pointer
+    &__logo
+      width: 47px
+      height: 47px
+      background: radial-gradient(66.89% 66.89% at 59.24% 24.84%, #FEC8C1 0%, rgba(229, 106, 89, 0) 100%), #D13233
+      box-shadow: -6px 8px 8px rgba(0, 0, 0, 0.1)
+      border-radius: 25px
+      font-family: "CoreSansC-65Bold"
+      font-style: normal
+      font-weight: 600
+      font-size: 16px
+      line-height: 16px
+      color: #FFFFFF
+      text-align: center
+      padding-top: 15px
+      margin-right: 5px
+    &__name
+      font-family: CoreSansC-65Bold
+      font-style: normal
+      font-weight: 600
+      font-size: 16px
+      line-height: 16px
+      color: #FFFFFF
+  &__center
+    &__number
+      font-family: CoreSansC-45Regular
+      font-style: normal
+      font-weight: normal
+      font-size: 20px
+      line-height: 23px
+      letter-spacing: -0.03em
+      color: #FFFFFF
+      margin-bottom: 6px
+      cursor: pointer
+    &__mode
+      font-family: "CoreSansC-45Regular"
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-heigt: 19px
+      color: #FFFFFF
+      opacity: 0.5
+  &__right
+    display: flex
+    justify-content: space-between
+    width: 580px
+    align-items: center
+    height: 15px
+    &__pages
+      font-family: CoreSansC-45Regular
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 19px
+      color: #FFFFFF
+      margin-right: 20px
+      cursor: pointer
+    &__menu
+      height: 10px
+      width: 48px
+      margin-left: 18px
+      cursor: pointer
+.logo
+  cursor: pointer
+  &__1
+  margin-bottom: 133px
+  position: relative
+  margin-left: -2.35em
+  &__2
+    position: absolute
+    left: 0
+.home 
+  display: flex
+  justify-content: space-between
+  padding-bottom: 57px
+  &__left
+    display: flex
+    flex-direction: column
+    width: 290px
+    &__logo
+      width: 20px
+      height: 20px
+      margin-bottom: 30px
+      cursor: pointer
+      &__4
+        margin-bottom: 0
+  &__center
+    width: 380px
+    &__wrapper
+      display: grid
+      height: 139px
+      width: 350px
+      grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr
+      &__name
+        font-family: CoreSansC-45Regular
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 19px
+        text-decoration-line: underline
+        color: #FFFF
+        opacity: 0.5
+        cursor: pointer
+        padding: 5px
+        margin-bottom: 3px
+        &:hover
+          color: #FFFF
+          opacity: 0.99
+    &__foto
+      display: none
+      animation: showBlock 0.5s linear forwards
+      &--visible
+        display: block
+      &__1
+        width: 373px
+        height: 231px
+        margin-top: 23px
+        border-radius: 10px
+        margin-bottom: 17px
+        object-fit: cover
+      &__2
+        margin-bottom: 9px
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 19px
+        color: #FFFFFF
+      &__3
+        width: 325px
+        font-family: CoreSansC-45Regular
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 19px
+        color: #FFFFFF
+        opacity: 0.5
+  &__right
+    width: 680px
+    display: flex
+    &__name
+      max-width: 500px
+      font-family: CoreSansC-45Regular
+      font-style: normal
+      font-weight: normal
+      font-size: 40px
+      line-height: 47px
+      letter-spacing: -0.02em
+      color: #FFFFFF
+      margin: 0
+      margin-bottom: 50px
+    &__button-buy
+      display: flex
+      align-items: center
+      &__button
+        display: flex
+        align-items: center
+        width: 220px
+        height: 56px
+        border: 1px solid #FFFFFF
+        box-sizing: border-box
+        border-radius: 7px
+        font-family: Core Sans C
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 16px
+        color: #FFFFFF
+        padding: 22px 20px 22px 25px
+        margin-right: 30px
+        cursor: pointer
+        font-family: CoreSansC-45Regular
+        &:hover
+          background-color: #fff
+          color: black
+        &__svg
+          margin-right: 12.5px
+          width: 15px
+          height: 15px
+      &__buy
+        font-family: CoreSansC-45Regular
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 16px
+        color: #FFFFFF
+        cursor: pointer
+        align-items: center
+        display: flex
+        &__span
+          font-family: CoreSansC-45Regular
+          margin-right: 7px
+          height: 18px
+@keyframes showBlock 
+  0% 
+    opacity: 0
+  100% 
+    opacity: 1
+.search
+  display: flex
+  border-top: 1px solid rgba(255, 255, 255, 0.15)
+  bottom: 0
+  padding: 35px 0px 42px 0px
+  justify-content: flex-end
+  &__wrapper
+    display: flex
+  &__rooms
+    margin-right: 15px
+    &__name
+      font-style: normal
+      font-weight: normal
+      font-size: 13px
+      line-height: 13px
+      color: #FFFFFF
+      margin-bottom: 14px
+    &__numbers
+      display: flex
+      width: 314px
+      height: 56px
+      background: rgba(255, 255, 255, 0.16)
+      border-radius: 7px
+      overflow: hidden
+      &__studio
+        width: 29%
+        padding: 21px 19px 19px 17px
+        border-right: 1px solid #FFFFFF
+        font-family: CoreSansC-45Regular
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 16px
+        color: #171723
+        background: #FFFFFF
+        cursor: pointer
+      &__number
+        width: 18%
+        padding: 21px 23px 19px 23px
+        border-right: 1px solid #FFFFFF
+        font-family: CoreSansC-45Regular
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 16px
+        color: #FFFFFF
+        cursor: pointer
+        &__4
+          border: none
+  &__area
+    position: relative
+    top: 0
+    margin-right: 17px
+    width: 263px
+    &__name
+      font-family: CoreSansC-45Regular
+      font-style: normal
+      font-weight: normal
+      font-size: 13px
+      line-height: 13px
+      color: #FFFFFF
+      margin-bottom: 14px
+    &__numbers
+      display: flex
+      width: 270px
+      height: 56px
+      background: rgba(255, 255, 255, 0.16)
+      border-radius: 7px
+      overflow: hidden
+      &__from-number
+        display: flex
+        width: 50%
+        border-right: 1px solid #FFFFFF
+        padding: 21px 57px 19px 15px
+        &__from
+          font-family: CoreSansC-45Regular
+          font-style: normal
+          font-weight: normal
+          font-size: 16px
+          line-height: 16px
+          color: #FFFFFF
+          opacity: 0.4
+          margin-right: 4px
+        &__number
+          font-family: CoreSansC-45Regular
+          font-style: normal
+          font-weight: normal
+          font-size: 16px
+          line-height: 16px
+          color: #FFFFFF
+          cursor: pointer
+      &__to-number
+        display: flex
+        width: 50%
+        padding: 21px 48px 19px 15px
+        &__to
+          font-family: CoreSansC-45Regular
+          font-style: normal
+          font-weight: normal
+          font-size: 16px
+          line-height: 16px
+          color: #FFFFFF
+          opacity: 0.4
+          margin-right: 4px
+        &__number
+          font-family: CoreSansC-45Regular
+          font-style: normal
+          font-weight: normal
+          font-size: 16px
+          line-height: 16px
+          color: #FFFFFF
+          cursor: pointer
+      &__counter
+        position: absolute
+        width: 179px
+        height: 21px
+        display: flex
+        align-items: center
+        bottom: -10.5px
+        left: 30px
+        &__circle
+          width: 21px
+          height: 21px
+          border-radius: 25px
+          background: #D90002
+          filter: drop-shadow(0px 0px 8px #ED2426)
+          cursor: pointer
+        &__line
+          width: 140px
+          height: 3px
+          background: #D90002
+          cursor: pointer
+  &__park
+   width: 250px
+   display: flex
+   justify-content: space-between
+   padding: 21px 24px 19px 14px
+   align-items: center
+   margin-right: 15px
+   &__svg
+     width: 12px
+     height: 8px
+     cursor: pointer
+  &__right
+    margin-right: 20px
+    margin-left: -15px
+    &__button
+      height: 82.36px
+      display: flex
+      align-items: flex-end
+      &__filter
+        display: flex
+        width: 127px
+        height: 56px
+        border: 1px solid #FFFFFF
+        opacity: 0.3
+        border-radius: 7px
+        cursor: pointer
+    &__wrapper
+      display: flex
+      align-items: center
+      margin-top: -45px
+      margin-left: 20px
+      &__filter-svg
+        width: 18px
+        height: 16px
+        opacity: none
+        margin-right: 15px
+        cursor: pointer
+      &__text
+        font-family: CoreSansC-45Regular
+        font-style: normal
+        font-weight: normal
+        font-size: 13px
+        line-height: 130.3%
+        color: #FFFFFF
+        width: 20px
+  &__look
+    width: 224px
+    height: 56px
+    background: #D90002
+    border-radius: 7px
+    margin-top: 25px
+    padding: 21px 23px 19px 23px
+    cursor: pointer
+    &__text
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 16px
+      color: #FFFFFF
+.button
+  display: flex
+  justify-content: space-between
+  width: 56px
+  margin-top: 15px
+  margin-right: 45px
+  &__button-prev
+    width: 8px
+    height:12px
+    background-image: url(../img/prev.svg)
+    cursor: pointer
+  &__button-next
+    width: 8px
+    height: 12px
+    background-image: url(../img/next.svg)
+    cursor: pointer
+    
+
+    
+  

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style type="text/css">
+    html { overflow-x: hidden; }
+    body { overflow-x: hidden; }
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тестовое задание на front-end разработчика</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="primary"></section>
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="primary__video">
+            <video src="video/dog.mp4" autoplay loop muted class="primary__video__media" id="bgvideo"> 
+            </video>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="primary__video">
+            <video src="video/flowers.mp4" autoplay loop muted class="primary__video__media" id="bgvideo"> 
+            </video>
+          </div>
+        </div>
+      </div>
+      
+    </div>  
+    <div class="primary__content">
+      <div class="container flex-container">
+        <div>
+          <div class="header"> 
+            <div class="header__left">
+              <div class="header__left__logo">Life</div>
+              <div class="header__left__name"> devepoment</div>
+            </div>
+            <div class="header__center">
+              <div class="header__center__number">8 800 222-37-90</div>
+              <div class="header__center__mode">Работаем ежедневно с 10:00 до 20:00</div>
+            </div>
+            <div class="call">
+              <img src="img/call.svg" alt="Call" class="call__ellipse">
+              <img src="img/call-in.svg" alt="Call" class="call__svg">
+            </div>
+            <div class="header__right">
+              <div class="header__right__pages" data-aos="flip-up">Квартиры</div>
+              <div class="header__right__pages" data-aos="flip-up">Ипотека</div>
+              <div class="header__right__pages" data-aos="flip-up">Коммерция</div>
+              <div class="header__right__pages" data-aos="flip-up">Управляющая компания</div>
+              <img src="img/menu.svg" alt="Menu" class="header__right__menu">
+            </div>
+            <img src="img/menu.svg" alt="Menu" class="header__right__menu visible-menu">
+          </div>
+          <div class="home">
+            <div class="home__left">
+              <div class="logo">
+                <img src="img/primary-logo-1.png" alt="Logo" class="logo__1">
+                <img src="img/primary-logo.png" alt="Logo" class="logo__2">
+              </div>
+              <img src="img/Vector.svg" alt="Facebook" class="home__left__logo">
+              <img src="img/Vector-1.svg" alt="Instagram" class="home__left__logo">
+              <img src="img/Vector-2.svg" alt="Twitter" class="home__left__logo">
+              <img src="img/Vector-3.svg" alt="VK" class="home__left__logo home__left__logo__4">
+            </div>
+  
+            <div class="home__center">
+              <div class="home__center__wrapper">
+                <div class="home__center__wrapper__name" data-target="#sever">Северный парк</div>
+                <div class="home__center__wrapper__name" data-target="#ren">Ренесанс</div>
+                <div class="home__center__wrapper__name" data-target="#sta">Станция Столичная</div>
+                <div class="home__center__wrapper__name" data-target="#kom">Компас сити</div>
+                <div class="home__center__wrapper__name" data-target="#let">Лето</div>
+                <div class="home__center__wrapper__name" data-target="#bru">Бруклин</div>
+                <div class="home__center__wrapper__name" data-target="#ska"> Сказочный сад</div>
+                <div class="home__center__wrapper__name" data-target="#mon">Монблан</div>
+                <div class="home__center__wrapper__name" data-target="#kra">
+                  Краски
+                </div>
+              </div>
+              <div id="sever" class="home__center__foto">
+                <img src="img/home-foto.jpg" alt="Home" class="home__center__foto__1">
+                <div class="home__center__foto__2">Северный парк</div>
+                <div class="home__center__foto__3">Жилой комплекс небывалого масштаба 
+                  с развитой инфраструктурой</div>
+              </div>
+              <div id="sta" class="home__center__foto">
+                <img src="img/jk-1.jpg" alt="Home" class="home__center__foto__1">
+                <div class="home__center__foto__2">Станция Столичная</div>
+                <div class="home__center__foto__3">Жилой комплекс небывалого масштаба 
+                  с развитой инфраструктурой</div>
+              </div>
+              <div id="let" class="home__center__foto">
+                <img src="img/jk-2.jpg" alt="Home" class="home__center__foto__1">
+                <div class="home__center__foto__2">Лето</div>
+                <div class="home__center__foto__3">Жилой комплекс небывалого масштаба 
+                  с развитой инфраструктурой</div>
+              </div>
+              <div id="ska" class="home__center__foto">
+                <img src="img/jk-3.jpg" alt="Home" class="home__center__foto__1">
+                <div class="home__center__foto__2">Сказочный сад</div>
+                <div class="home__center__foto__3">Жилой комплекс небывалого масштаба 
+                  с развитой инфраструктурой</div>
+              </div>
+              <div id="kra" class="home__center__foto">
+                <img src="img/jk-4.jpg" alt="Home" class="home__center__foto__1">
+                <div class="home__center__foto__2">Краски</div>
+                <div class="home__center__foto__3">Жилой комплекс небывалого масштаба 
+                  с развитой инфраструктурой</div>
+              </div>
+              <div id="ren" class="home__center__foto">
+                <img src="img/jk-5.jpg" alt="Home" class="home__center__foto__1">
+                <div class="home__center__foto__2">Ренесанс</div>
+                <div class="home__center__foto__3">Жилой комплекс небывалого масштаба 
+                  с развитой инфраструктурой</div>
+              </div>
+              <div id="kom" class="home__center__foto">
+                <img src="img/jk-6.jpg" alt="Home" class="home__center__foto__1">
+                <div class="home__center__foto__2">Компас сити</div>
+                <div class="home__center__foto__3">Жилой комплекс небывалого масштаба 
+                  с развитой инфраструктурой</div>
+              </div>
+              <div id="bru" class="home__center__foto">
+                <img src="img/jk-7.jpg" alt="Home" class="home__center__foto__1">
+                <div class="home__center__foto__2">Бруклин</div>
+                <div class="home__center__foto__3">Жилой комплекс небывалого масштаба 
+                  с развитой инфраструктурой</div>
+              </div>
+              <div id="mon" class="home__center__foto">
+                <img src="img/jk-8.jpg" alt="Home" class="home__center__foto__1">
+                <div class="home__center__foto__2">Монблан</div>
+                <div class="home__center__foto__3">Жилой комплекс небывалого масштаба 
+                  с развитой инфраструктурой</div>
+              </div>
+            </div>
+            
+            <div class="home__right">
+              <div class="button">
+                <div class="button__button-prev"></div>
+                <div class="button__button-next"></div>
+              </div>
+              <div>
+                <h1 class="home__right__name">Стильная архитектура и виды из окон будущей квартиры не оставят равнодушных</h1>
+              <div class="home__right__button-buy">
+                <div class="home__right__button-buy__button">
+                  <svg class="home__right__button-buy__button__svg" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="home__right__button-buy__button__svg" d="M5.5 0.5V5.5H0.5V6.5H5.5V11.5H6.5V6.5H11.5V5.5H6.5V0.5H5.5Z" fill="black" stroke="white" stroke-width="0.7"/>
+                  </svg>
+                  Выбрать квартиру
+                </div>
+                <div class="home__right__button-buy__buy">
+                  <div class="home__right__button-buy__buy__span">Купить квартиру онлайн</div>
+                  <img src="img/home-right-svg.svg" alt="Next">
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="mini-logo">
+              <img src="img/mini-logo.svg" alt="Logo" class="mini-logo__foto">
+            </div>
+          </div>
+        </div>
+        <div class="search">
+          <div class="search__wrapper">
+            <div class="search__rooms">
+              <div class="search__rooms__name">Количество комнат</div>
+              <div class="search__rooms__numbers">
+                <div class="search__rooms__numbers__studio">Студия</div>
+                <div class="search__rooms__numbers__number">1</div>
+                <div class="search__rooms__numbers__number">2</div>
+                <div class="search__rooms__numbers__number">3</div>
+                <div class="search__rooms__numbers__number search__rooms__numbers__number__4">4</div>
+              </div>
+            </div>
+            <div class="search__area search__area-1">
+              <div class="search__area__name">Площадь</div>
+              <div class="search__area__numbers">
+                <div class="search__area__numbers__from-number">
+                  <div class="search__area__numbers__from-number__from">От</div>
+                  <div class="search__area__numbers__from-number__number">32 м²</div>
+                </div>
+                <div class="search__area__numbers__to-number">
+                  <div class="search__area__numbers__to-number__to">До</div>
+                  <div class="search__area__numbers__to-number__number">186 м²</div>
+                </div>
+                <div class="search__area__numbers__counter">
+                  <div class="search__area__numbers__counter__circle"></div>
+                  <div class="search__area__numbers__counter__line"></div>
+                  <div class="search__area__numbers__counter__circle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="search__area search__area-2">
+              <div class="search__area__name">Стоимость, млн ₽</div>
+              <div class="search__area__numbers">
+                <div class="search__area__numbers__from-number">
+                  <div class="search__area__numbers__from-number__from">От</div>
+                  <div class="search__area__numbers__from-number__number">1,5</div>
+                </div>
+                <div class="search__area__numbers__to-number">
+                  <div class="search__area__numbers__to-number__to">До</div>
+                  <div class="search__area__numbers__to-number__number">17,5</div>
+                </div>
+                <div class="search__area__numbers__counter">
+                  <div class="search__area__numbers__counter__circle"></div>
+                  <div class="search__area__numbers__counter__line"></div>
+                  <div class="search__area__numbers__counter__circle"></div>
+                </div>
+              </div>
+            </div>
+            <div class="search__area">
+              <div class="search__area__name">Жилой комплекс</div>
+              <div class="search__area__numbers search__park">
+                  <div class="search__area__numbers__from-number__number">Северный парк</div>
+                  <img src="img/park-svg.svg" alt="Results" class="search__park__svg">
+              </div>
+            </div>
+            <div class="search__right">
+              <div class="search__right__button">
+                <div class="search__right__button__filter">
+                </div>
+              </div>
+              <div class="search__right__wrapper">
+                <img src="img/filter.svg" alt="Filter" class="search__right__wrapper__filter-svg">
+                <div class="search__right__wrapper__text">Ещё фильтры</div>
+              </div>
+            </div>
+            <div class="search__look">
+              <span class="search__look__text">Показать 120 квартир</span>
+            </div>
+            <div class="pick-up">
+              <span class="pick-up__text">Подобрать квартиру</span>
+              <img src="img/search.svg" alt="Search" class="pick-up__svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
